@@ -49,3 +49,22 @@
     display: flex;
     justify-content: space-around;
 }
+
+.title-nos {
+    font-size: 4em;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Merriweather', serif;
+}
+
+/* Quienes Somos */
+
+.quien {
+    font-family: 'Lora', serif;
+}
+
+.texto-somos {
+    text-align: center;
+    margin-bottom: 1.5em;
+    align-content: center;
+}
