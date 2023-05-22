@@ -34,3 +34,18 @@
     text-align: center;
     padding: 10px;
 }
+
+
+.carousel {
+    margin: 0 auto;
+}
+
+.sponsor {
+    width: 10%;
+}
+
+/* Nosotras */
+.nosotras {
+    display: flex;
+    justify-content: space-around;
+}
