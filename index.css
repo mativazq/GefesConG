@@ -154,6 +154,26 @@
 
 /* Boton Contactos */
 .btn-contacto{
+    display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1.5em;
 }
+
+/* Boton Talleres */
+
+.btn-taller{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
+
