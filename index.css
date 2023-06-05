@@ -142,6 +142,18 @@
   margin: 0;
 }
 
+.fondo-mision {
+  background-color: rgb(128, 172, 128);
+}
+
+.fondo-vision {
+  background-color: rgb(128, 128, 238);
+}
+
+.fondo-valores {
+  background-color: rgb(235, 105, 105);
+}
+
 /* Servicios */
 
 .text-serv {
@@ -153,43 +165,80 @@
 }
 
 /* Boton Contactos */
-.btn-contacto{
-  width: 200px;
-  height: 50px;
+
+.div-contacto{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.btn-contacto{
+  width: 600px;
+  height: 300px;
   font-size: 20px;
   text-align: center;
   border-radius: 20px;
   border: none;
   margin: 30px;
-  background-color: #FFFFFF;
+  background-color: #7bfaba; /* Color de fondo */
+  color: black; /* Color del texto */
+  padding: 16px 32px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 50px; /* Esquinas redondeadas */
+  font-size: 24px; /* Tamaño de fuente */
+  font-weight: bold; /* Negrita */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  transition: background-color 0.3s ease; /* Transición suave al pasar el mouse */
 }
 
 /* Boton Talleres */
 
 .btn-taller{
-  width: 200px;
-  height: 50px;
+  width: 400px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 20px;
   text-align: center;
-  border-radius: 20px;
-  border: none;
   margin: 30px;
-  background-color: #FFFFFF;
+  background-color: #4c8fff; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 12px 24px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 50px; /* Esquinas redondeadas */
+  font-size: 18px; /* Tamaño de fuente */
+  font-weight: bold; /* Negrita */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  transition: transform 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+.boton-efecto:hover {
+  transform: scale(1.1); /* Escala el botón al pasar el mouse */
 }
 
 /* Footer */
 
 .footer {
+  height: 80px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 2rem;
   background-color: aqua;
 }
+
+.prueba{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
 
