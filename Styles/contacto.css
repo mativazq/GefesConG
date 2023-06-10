@@ -1,0 +1,25 @@
+.form-container {
+    border-radius: 2rem;
+    padding: 2rem;
+    color: black;
+    margin-bottom: 1cm;
+    border: 10px solid #FFFFFF;
+    font-size: 20px;
+}
+
+.boton-enviar {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    margin: 30px;
+    background-color: #FFFFFF;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
