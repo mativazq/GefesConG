@@ -30,13 +30,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active animacion-nav" aria-current="page" href="#">Nosotras</a>
+              <a class="nav-link active animacion-nav" aria-current="page" href="#nosotras">Nosotras</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active animacion-nav" aria-current="page" href="#">Misión</a>
+              <a class="nav-link active animacion-nav" aria-current="page" href="#mision">Misión</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active animacion-nav" aria-current="page" href="#">Talleres</a>
+              <a class="nav-link active animacion-nav" aria-current="page" href="./Pages/talleres.html">Talleres</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active animacion-nav" aria-current="page" href="./Pages/contacto.html">Contacto</a>
@@ -65,7 +65,7 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <a href="#"><img src="./Images/th.jpg" class="d-block w-100" alt=""></a>
+        <a href="#nosotras"><img src="./Images/th.jpg" class="d-block w-100" alt=""></a>
         <div class="carousel-caption d-none d-md-block">
           <h5>Nosotras</h5>
           <p>Conocenos y que hacemos</p>
@@ -127,7 +127,7 @@
   </div>
 
   <!-- Nosotras -->
-  <h2 class="title-nos">Nosotras</h2>
+  <h2 class="title-nos" id="nosotras">Nosotras</h2>
   <div class=" container">
     <div class="nosotras row">
       <div class="card col-lg-5 col-sm-10 nosotras-card">
@@ -172,7 +172,7 @@
 
 
 <!--   Mision, vision y Valores -->
-  <h2 class="title-nos">Misión / Visión / Valores</h2>
+  <h2 class="title-nos" id="mision">Misión / Visión / Valores</h2>
 
   <div class="row cont-mision">
     <div class="card mision col-lg-3 col-sm-7 fondo-mision">
@@ -208,7 +208,7 @@
   </div>
 
 <!--   Servicios -->
-  <h2 class="title-nos">Servicios</h2>
+  <h2 class="title-nos" id="servicios">Servicios</h2>
 
   <p class="text-serv">
     - Sesiones de Coaching.<br/>
@@ -220,13 +220,17 @@
 
 <!--   Contacto -->
   <div class="div-contacto">
-    <button type="button" class="btn btn-success btn-contacto">Contactate con Nosotras</button>
+    <a href="./Pages/contacto.html">
+      <button type="button" class="btn btn-success btn-contacto">Contactate con Nosotras</button>
+    </a>
   </div>
   
   <!--   Talleres -->
   <div class="div-contacto">
-    <button class="btn-taller boton-efecto">Conoce nuestros Talleres</button>
-  </div>
+    <a href="./Pages/talleres.html">
+      <button class="btn-taller boton-efecto">Conoce nuestros Talleres</button>
+    </a>
+    </div>
 
 
 
