@@ -45,11 +45,26 @@
   margin: 0 auto;
 }
 
+.principal {
+  height: 30em;
+  width: 30em;
+}
+
+
+/*carrousel propaganda*/
+
 .sponsor {
   width: 10%;
 }
 
+.carrusel-propa{
+  margin-top: 2rem;
+}
+
+
 /* Nosotras */
+
+
 .nosotras {
   display: flex;
   justify-content: space-around;
@@ -69,12 +84,16 @@
 
 .img-nos {
   border-radius: 50px;
+  margin-top: 10px;
 }
 
 .card-nos {
   justify-content: center;
   align-content: center;
 }
+
+
+
 
 /* Quienes Somos */
 
@@ -175,7 +194,6 @@
 .btn-contacto{
   width: 600px;
   height: 300px;
-  font-size: 20px;
   text-align: center;
   border-radius: 20px;
   border: none;
@@ -201,7 +219,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
   text-align: center;
   margin: 30px;
   background-color: #4c8fff; /* Color de fondo */
@@ -232,6 +249,7 @@
   background-color: aqua;
   position: sticky;
   bottom: 0;
+  z-index: 5;
 }
 
 .prueba{
@@ -240,6 +258,10 @@
   align-items: center;
 }
 
+.img-foot{
+  height: 6rem;
+  width: 8rem;
+}
 
 
 
