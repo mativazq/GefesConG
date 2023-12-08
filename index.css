@@ -97,6 +97,20 @@
 
 /* Quienes Somos */
 
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px; /* Ajusta según tu preferencia */
+}
+
+.card-somos {
+  max-width: 1000px; /* Ajusta según tu preferencia */
+  width: 100%;
+  padding: 20px;
+}
+
 .title-somos {
   background-color: #f8f8f8;
   border: 1px solid #ccc;
@@ -117,6 +131,8 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 1.5em;
 }
+
+
 
 /* Mision, vision, valores */
 
